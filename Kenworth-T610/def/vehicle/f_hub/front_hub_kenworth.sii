@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_rim_data : kenworth.fhub
+{
+	name: "Kenworth"
+	price: 600
+	unlock: 0
+	model: "/vehicle/truck/upgrade/wheel/hub/front_hub_kenworth.pmd"
+	icon: "hub/front_hub_kenworth"
+
+	paintable: true
+	default_color: (0.005, 0.005, 0.005)
+}
+}

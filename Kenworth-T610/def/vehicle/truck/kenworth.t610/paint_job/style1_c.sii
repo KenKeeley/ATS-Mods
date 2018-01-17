@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_paint_job_data : style1_c.kenworth.t610.paint_job
+{
+	name: "Crackling Red"
+	price: 5000
+	unlock: 0
+	icon: "kenworth_t610/paintjob_crackling_red"
+	base_color :  (1, 0.000, 0.000)
+	base_color_locked: false
+	mask_b_color :  (0.005, 0.005, 0.005)
+	mask_b_locked: false
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_t610_001_c.tobj"
+	stock: true
+	suitable_for[]: "aero.kenworth.t610.cabin"
+}
+}

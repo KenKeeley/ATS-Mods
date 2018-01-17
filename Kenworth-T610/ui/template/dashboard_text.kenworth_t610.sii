@@ -1,0 +1,105 @@
+﻿SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "dashboard" for "/ui/template/dashboard.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+#
+# Kenworth T610
+#
+
+ui::text_template : kenkeeley.t610.title {
+	name: "zDB  Kenworth T610 Title Text"
+	text: "<color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.9 yscale=2.9>%0</font>"
+}
+
+ui::text_template : kenkeeley.t610.text.left {
+	name: "zDB  Kenworth T610 Left Aligned Text"
+	text: "<align hstyle=left><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.4 yscale=2.4>%0</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.cruise {
+	name: "zDB  Kenworth Cruise Speed"
+	text: "<align hstyle=center><color value=FF00FF80><font face=/font/t610-small.font xscale=1.7 yscale=1.7>%0 %1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.gear {
+	name: "zDB  Kenworth Gear"
+	text: "<align hstyle=center vstyle=center><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.9 yscale=2.9>%0</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.clock {
+	name: "zDB  Kenworth T610 Clock Text"
+	text: "<align hstyle=left><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.1 yscale=2.1>%0</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.odometer {
+	name: "zDB  Kenworth T610 Small Odometer Text"
+	text: "<align hstyle=center><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.1 yscale=2.1>%0 %1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.outtemp {
+	name: "zDB  Kenworth T610 Small Temp Text"
+	text: "<align hstyle=right><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.1 yscale=2.1>%0°%1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.big_speed {
+	name: "zDB  Kenworth Speed Big "
+	text: "<align hstyle=center><color value=FFFFFFFF><font face=/font/t610-small.font xscale=8 yscale=8>%0</font></align><align hstyle=left vstyle=bottom><font face=/font/t610-small.font xscale=2.1 yscale=2.1> %1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.range {
+	name: "zDB  Kenworth T610 Range Text"
+	text: "<align hstyle=right><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.4 yscale=2.4>%0 %1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.remaining {
+	name: "zDB  Kenworth T610 Remaining Text"
+	text: "<align hstyle=right><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.4 yscale=2.4>%0 %1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.instant {
+	name: "zDB  Kenworth T610 Instant Text"
+	text: "<align hstyle=right><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.4 yscale=2.4>%0 %1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.average {
+	name: "zDB  Kenworth T610 Average Text"
+	text: "<align hstyle=right><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.4 yscale=2.4>%0 %1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.distance {
+	name: "zDB  Kenworth T610 Distance Text"
+	text: "<align hstyle=right><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.4 yscale=2.4>%0 %1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.running {
+	name: "zDB  Kenworth T610 Running Text"
+	text: "<align hstyle=right><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.4 yscale=2.4>%0 %1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.text.water {
+	name: "zDB  Kenworth T610 Water Temp Text"
+	text: "<align hstyle=center><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.4 yscale=2.4>%0°%1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.text.oil {
+	name: "zDB  Kenworth T610 Oil Temp Text"
+	text: "<align hstyle=center><color value=FFFFFFFF><font face=/font/t610-small.font xscale=2.4 yscale=2.4>%0°%1</font></align>"
+}
+
+ui::text_template : kenkeeley.t610.title.red {
+	name: "zDB  Kenworth T610 Red Title Text"
+	text: "<color value=FF0000FF><font face=/font/t610-small.font xscale=2.9 yscale=2.9>%0</font>"
+}
+
+ui::text_template : kenkeeley.t610.text.center.red {
+	name: "zDB  Kenworth T610 Red Centered Text"
+	text: "<align hstyle=center><color value=FF0000FF><font face=/font/t610-small.font xscale=2.9 yscale=2.9>%0</font></align>"
+}
+
+}

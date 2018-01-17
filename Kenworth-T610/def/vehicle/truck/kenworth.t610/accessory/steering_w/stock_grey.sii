@@ -1,0 +1,26 @@
+SiiNunit
+{
+accessory_addon_data : stockgrey.kenworth.t610.steering_w
+{
+	name: "Stock"
+	price: 150
+	unlock: 0
+	icon: "kenworth_t610/steering_w_stock"
+	interior_model: "/vehicle/truck/upgrade/steering_w/kenworth_t610/kenworth_sw.pmd"
+	variant: stock
+	look: grey
+
+	suitable_for[]: "stock.aero_k.kenworth.t610.interior"
+	suitable_for[]: "stock.aero_ka.kenworth.t610.interior"
+	suitable_for[]: "stock.aero_m.kenworth.t610.interior"
+	suitable_for[]: "stock.aero_ma.kenworth.t610.interior"
+	suitable_for[]: "stock.daycab_k.kenworth.t610.interior"
+	suitable_for[]: "stock.daycab_ka.kenworth.t610.interior"
+	suitable_for[]: "stock.daycab_m.kenworth.t610.interior"
+	suitable_for[]: "stock.daycab_ma.kenworth.t610.interior"
+	suitable_for[]: "stock.860mm_k.kenworth.t610.interior"
+	suitable_for[]: "stock.860mm_ka.kenworth.t610.interior"
+	suitable_for[]: "stock.860mm_m.kenworth.t610.interior"
+	suitable_for[]: "stock.860mm_ma.kenworth.t610.interior"
+}
+}

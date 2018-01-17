@@ -1,0 +1,40 @@
+SiiNunit
+{
+accessory_chassis_data : 6x4_5200.kenworth.t610.chassis
+{
+	name: "@@chassis@@ 6x4 5200mm Wheelbase"
+	price: 25000
+	unlock: 0
+	info[]: "6x4 5200mm Wheelbase"
+	info[]: "600 + 200 @@unit_l@@"
+	icon: "kenworth_t610/chassis_6x4"
+	model: "/vehicle/truck/kenworth_t610/truck.pmd"
+	collision: "/vehicle/truck/kenworth_t610/truck.pmc"
+	variant: chs_5200
+	look: default
+	extended_shadow_texture: "/vehicle/truck/kenworth_t610/shadow_5200.tobj"
+	extended_shadow_intensity: 1.0
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+	ui_shadow: "/vehicle/truck/kenworth_t610/ui_shadow_5200.pmd"
+
+	residual_travel[]: 0.16		# 1st axle
+	residual_travel[]: 0.12		# 2nd axle
+	residual_travel[]: 0.12		# 3rd axle
+	powered_axle[0]: false		# front axle
+	powered_axle[1]: true		# rear 1st axle
+	powered_axle[2]: true		# rear 2nd axle
+	kerb_weight[0]:	3202
+	kerb_weight[1]:	2027
+	kerb_weight[2]:	2027
+	liftable_axle[0]: false
+	liftable_axle[1]: false
+	liftable_axle[2]: false
+
+	tank_size: 1100
+	adblue_tank_size: 100
+	air_tank_pressure: 8.5
+
+	defaults[]: "/def/vehicle/truck/kenworth.t610/paint_job/style1_a.sii"
+}
+}

@@ -1,0 +1,108 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.79.0 (hash: 5bd8ac9), SCS Blender Tools: 1.10.6cefe1f"
+    Type: "Model"
+    Name: "model"
+}
+Global {
+    VertexCount: 0
+    TriangleCount: 0
+    MaterialCount: 0
+    PieceCount: 0
+    PartCount: 2
+    BoneCount: 0
+    LocatorCount: 11
+    Skeleton: "model.pis"
+}
+Part {
+    Name: "cab_base"
+    PieceCount: 0
+    LocatorCount: 10
+    Pieces:
+    Locators: 1 2 3 4 5 6 7 8 9 10
+}
+Part {
+    Name: "cab_daycab"
+    PieceCount: 0
+    LocatorCount: 1
+    Pieces:
+    Locators: 0
+}
+Locator {
+    Name: "back_glass"
+    Index: 0
+    Position: ( &3f040a28  &bd976361  &3e910b63 )
+    Rotation: ( &b33bbd2e  &00000000  &3f800000  &33a22169 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "close_glass"
+    Index: 1
+    Position: ( &beecb535  &be2f448f  &beecb296 )
+    Rotation: ( &3f39b223  &00000000  &3f303802  &335f34e2 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "codrv_plate0"
+    Index: 2
+    Position: ( &3f940e17  &beb58103  &bfa26320 )
+    Rotation: ( &3f745924  &3e888ecb  &be068b9e  &3cc1742f )
+    Scale: ( &3f7fffff  &3f7fffff  &3f800000 )
+}
+Locator {
+    Name: "deflector"
+    Index: 3
+    Position: ( &3f03b98c  &bf400fb8  &c030c5c1 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "drv_plate0"
+    Index: 4
+    Position: ( &be0100e7  &beb584f2  &bfa25e89 )
+    Rotation: ( &3f7461b2  &3e8818ce  &3e06bc31  &bcdeb549 )
+    Scale: ( &3f7fffff  &3f800000  &3f7fffff )
+}
+Locator {
+    Name: "far_glass"
+    Index: 5
+    Position: ( &3fbf3722  &be2f448f  &beecb296 )
+    Rotation: ( &3f39b223  &00000000  &bf303802  &b35f34e2 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "front_glass"
+    Index: 6
+    Position: ( &3f1a0d99  &bd8fba7c  &bf9cadac )
+    Rotation: ( &3f76cb29  &3e88128a  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "mirror_0"
+    Index: 7
+    Position: ( &3f03f1e9  &beb7dbf2  &bf860419 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "s_mirror"
+    Index: 8
+    Position: ( &3fc3f6d3  &3e404ea7  &beb861a6 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "steering_w"
+    Index: 9
+    Position: ( &39b24207  &bece6eea  &bf10533c )
+    Rotation: ( &3eca4e4d  &3f6b2b11  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f7fffff  &3f7fffff )
+}
+Locator {
+    Name: "sunshield"
+    Index: 10
+    Position: ( &3f03b98c  &3e739975  &bf71389b )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+

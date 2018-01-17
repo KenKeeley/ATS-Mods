@@ -1,0 +1,8 @@
+glass_pane_data : .kenworth.t610.pane.back
+{
+	locator: back_glass
+	size: (1.0, 0.5)
+
+	drop_size_minimum: 0.010
+	drop_size_maximum: 0.018
+}

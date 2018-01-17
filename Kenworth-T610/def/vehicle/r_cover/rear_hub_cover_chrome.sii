@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_rim_data : chrome.rcover
+{
+	name: "Chrome"
+	price: 250
+	unlock: 0
+	model: "/vehicle/truck/upgrade/wheel/cover/rear_hub_cover_chrome.pmd"
+	icon: "cover/rear_hub_cover_chrome"
+
+	suitable_for[]: "kenworth.rhub"
+}
+}

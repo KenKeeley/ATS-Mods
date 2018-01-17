@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_wheel_data : bstone.kenz.rtire
+{
+	name: "Bridgestone ECOPIA H 11R22"
+	price: 2460
+	unlock: 0
+	model: "/vehicle/truck/upgrade/wheel/tire/rear_kenz.pmd"
+	icon: "tire_bstone"
+	look: bstone
+
+	roll_resistance: 5.5
+	wet_grip: 1.05
+	noise_volume: 73
+
+	suitable_for[]: "alcoa.kenz.rdisc"
+}
+}

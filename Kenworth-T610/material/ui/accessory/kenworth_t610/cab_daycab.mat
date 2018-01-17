@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "cab_daycab.tobj"
+	texture_name : "texture"
+}

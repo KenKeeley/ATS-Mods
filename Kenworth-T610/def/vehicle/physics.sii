@@ -1,0 +1,79 @@
+SiiNunit
+{
+physics_data:  .phdata
+{
+	# Truck steering
+	steering_speed_coef: 4.0
+	steering_angle_coef: 2.0
+	steering_ratio_coef: 1.0
+	steering_sensitivity_multiplier_0kmh: 0.8
+	steering_sensitivity_multiplier_100kmh: 0.6
+	steering_sensitivity_multiplier_maximum: 0.2
+	steering_sensitivity_multiplier_minimum: 8.0
+
+	# Wheels and tyres
+	max_visual_rotation: 40
+	wheel_mass: 150.0
+	wheel_viscosity_factor: 1.1
+	bristle_stiffness_longitudinal_factor: 1.15
+	bristle_stiffness_lateral_factor: 1.05
+	bristle_damping_longitudinal_factor: 1.25
+	bristle_damping_lateral_factor: 1.15
+	slip_longitudinal_factor: 0.75
+	slip_lateral_factor: 0.5
+
+	# Truck/trailer chassis suspensions
+	damping_scaling_front_factor: 1.3
+	damping_scaling_rear_factor: 1.3
+	damping_scaling_trailer_factor: 1.15
+	sway_bar_stiffness_factor: 0.75
+
+	# Cabin movement and cabin suspension
+	cabin_max_pitch_angle_front: 0.0
+	cabin_max_pitch_angle_rear: 5.0
+	cabin_max_roll_angle: 1.0
+	cabin_pitch_force_scaling_factor: 4.4
+	cabin_pitch_damping_factor: 0.3
+	cabin_roll_force_scaling_factor: 4.4
+	cabin_roll_damping_factor: 0.3
+	cabin_mass: 2300.0
+
+	# Fifth wheel angles
+	fifth_wheel_pitch: 20
+	fifth_wheel_roll: 0.1
+	trailer_joint_pitch: 20
+	trailer_joint_roll: 3
+	spreader_joint_pitch: 5
+	spreader_joint_roll: 3
+
+	# Brakes
+	brake_torque_factor: 0.85
+	braking_curve_peak_rel: 1.7
+	brake_characteristic_rpm: 1250.0
+	brake_balance: 1.15
+	max_brake_temperature: 450.0
+	brake_cooling_rate: 0.005
+	brake_friction_warming_rate: 4.5
+
+	# Transmission and clutch
+	thrust_characteristic_viscosity_factor: 1.2
+	transmission_viscosity_factor: 1.0
+	clutch_viscosity_factor: 0.75
+	clutch_connected_viscosity_factor: 10.0
+	manual_clutch_viscosity_factor: 0.25
+	manual_clutch_connected_viscosity_factor: 20.0
+	torque_converter_viscosity_factor: 0.3
+	torque_converter_locked_viscosity_factor: 10.0
+	transmission_rel_flywheel_inertia: 0.5
+
+	# Retarder
+	transmission_viscosity_retarder_factor: 1.3
+
+	# Misc
+	air_resistance: 2.7
+	inertia_scaling_const: 1.0
+
+	version: 2
+
+}
+}

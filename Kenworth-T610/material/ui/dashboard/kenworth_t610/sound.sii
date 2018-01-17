@@ -1,0 +1,9 @@
+SiiNunit
+{
+mc_video : .kenworth.t610.sound
+{
+	filename : "/material/ui/dashboard/kenworth_t610/warning_sound.ogv"
+	looping: false
+	play_audio: true
+}
+}

@@ -1,0 +1,31 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.79.0 (hash: 5bd8ac9), SCS Blender Tools: 1.10.6cefe1f"
+    Type: "Model"
+    Name: "rear_hub_kenworth"
+}
+Global {
+    VertexCount: 0
+    TriangleCount: 0
+    MaterialCount: 0
+    PieceCount: 0
+    PartCount: 1
+    BoneCount: 0
+    LocatorCount: 1
+    Skeleton: "rear_hub_kenworth.pis"
+}
+Part {
+    Name: "left"
+    PieceCount: 0
+    LocatorCount: 1
+    Pieces:
+    Locators: 0
+}
+Locator {
+    Name: "ml"
+    Index: 0
+    Position: ( &00000000  &00000000  &00000000 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+

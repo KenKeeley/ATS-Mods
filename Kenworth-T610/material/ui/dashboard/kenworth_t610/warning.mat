@@ -1,0 +1,4 @@
+material : "ui.yuv2rgb.add"
+{
+	controller : "/material/ui/dashboard/kenworth_t610/sound.sii"
+}

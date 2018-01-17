@@ -1,0 +1,227 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.79.0 (hash: 5bd8ac9), SCS Blender Tools: 1.10.6cefe1f"
+    Type: "Model"
+    Name: "truck"
+}
+Global {
+    VertexCount: 0
+    TriangleCount: 0
+    MaterialCount: 0
+    PieceCount: 0
+    PartCount: 5
+    BoneCount: 0
+    LocatorCount: 25
+    Skeleton: "truck.pis"
+}
+Part {
+    Name: "chs_base"
+    PieceCount: 0
+    LocatorCount: 4
+    Pieces:
+    Locators: 0 16 4 15
+}
+Part {
+    Name: "chs_5200"
+    PieceCount: 0
+    LocatorCount: 11
+    Pieces:
+    Locators: 17 18 19 20 21 22 7 24 23 12 13
+}
+Part {
+    Name: "cab_base"
+    PieceCount: 0
+    LocatorCount: 8
+    Pieces:
+    Locators: 3 5 6 8 9 10 11 14
+}
+Part {
+    Name: "cab_daycab"
+    PieceCount: 0
+    LocatorCount: 1
+    Pieces:
+    Locators: 1
+}
+Part {
+    Name: "cab_860mm"
+    PieceCount: 0
+    LocatorCount: 1
+    Pieces:
+    Locators: 2
+}
+Locator {
+    Name: "cabin"
+    Index: 0
+    Position: ( &00000000  &3faf0fd1  &bf7e11da )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "cam_cabin_a"
+    Index: 1
+    Position: ( &00000000  &404f7709  &c01c584e )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "cam_cabin_b"
+    Index: 2
+    Position: ( &00000000  &404f7709  &c01c584e )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "codrv_plate0"
+    Index: 3
+    Position: ( &3f1e809d  &401988ba  &c02f6387 )
+    Rotation: ( &3f7564dd  &3e7e0af4  &be0a70bc  &3d14a6e7 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "doorhndl"
+    Index: 4
+    Position: ( &00000000  &3fd1b718  &bfe20274 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "drv_plate0"
+    Index: 5
+    Position: ( &bf210ff9  &4019a8ad  &c02f6ed5 )
+    Rotation: ( &3f76febb  &3e5ffe56  &3e125a1b  &bced3733 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "ext_interior"
+    Index: 6
+    Position: ( &00000000  &00000000  &00000000 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "hook_t_1"
+    Index: 7
+    Position: ( &00000000  &3f8ccccc  &400428f6 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "interior"
+    Index: 8
+    Position: ( &bf01613d  &402ad941  &bfcce2bf )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "mirror"
+    Index: 9
+    Position: ( &00000000  &4016238f  &c02a872a )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "driver_0"
+    Index: 10
+    Position: ( &bef78c00  &3fc040e2  &c010ed3e )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "s_mirror"
+    Index: 11
+    Position: ( &3f7a949a  &4038b2eb  &bffa30fb )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "shd_x_crn1"
+    Index: 12
+    Position: ( &bff26080  &beaa6f33  &c0978280 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "shd_x_ori1"
+    Index: 13
+    Position: ( &00000000  &3f83bd7b  &33a6de33 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "swheel"
+    Index: 14
+    Position: ( &bef78c00  &40000001  &c01d5b56 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_f_0_0"
+    Index: 15
+    Position: ( &bf81259a  &3f0f5c2d  &c0400000 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_f_1_0"
+    Index: 16
+    Position: ( &3f81259a  &3f0f5c2d  &c0400000 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_0_0"
+    Index: 17
+    Position: ( &bf6d028a  &3f0f5c25  &403d70a4 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_1_0"
+    Index: 18
+    Position: ( &3f6d028a  &3f0f5c25  &403d70a4 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_2_0"
+    Index: 19
+    Position: ( &bf6d028a  &3f0f5c27  &3fb851ec )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_3_0"
+    Index: 20
+    Position: ( &3f6d028a  &3f0f5c27  &3fb851ec )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wp00_01"
+    Index: 21
+    Position: ( &bf8cb3e5  &3c75c197  &4043d70a )
+    Rotation: ( &b33bbd2e  &00000000  &3f800000  &33a22169 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wp01_01"
+    Index: 22
+    Position: ( &3f8d6c0d  &3c75c197  &4043d70a )
+    Rotation: ( &b33bbd2e  &00000000  &3f800000  &33a22169 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wp02_01"
+    Index: 23
+    Position: ( &bf8cb3e5  &3c75c206  &3fd851ec )
+    Rotation: ( &b33bbd2e  &00000000  &3f800000  &33a22169 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wp03_01"
+    Index: 24
+    Position: ( &3f8d6c0d  &3c75c206  &3fd851ec )
+    Rotation: ( &b33bbd2e  &00000000  &3f800000  &33a22169 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+

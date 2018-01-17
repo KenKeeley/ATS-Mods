@@ -1,0 +1,113 @@
+# Look Names:
+#	stock_k
+#	stock_m
+#
+# Variant Names:
+#	daycab_a
+#	daycab_m
+#	860mm_a
+#	860mm_m
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.79.0 (hash: 5bd8ac9), SCS Blender Tools: 1.10.6cefe1f"
+    Type: "Trait"
+    Name: "model"
+}
+Global {
+    LookCount: 2
+    VariantCount: 4
+    PartCount: 2
+    MaterialCount: 0
+}
+Look {
+    Name: "stock_k"
+}
+Look {
+    Name: "stock_m"
+}
+Variant {
+    Name: "daycab_a"
+    Part {
+        Name: "cab_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "cab_daycab"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+Variant {
+    Name: "daycab_m"
+    Part {
+        Name: "cab_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "cab_daycab"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+Variant {
+    Name: "860mm_a"
+    Part {
+        Name: "cab_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "cab_daycab"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+}
+Variant {
+    Name: "860mm_m"
+    Part {
+        Name: "cab_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "cab_daycab"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+}
+

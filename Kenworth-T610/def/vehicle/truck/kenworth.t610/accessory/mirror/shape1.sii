@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : plastic.kenworth.t610.mirror
+{
+	name: "@@plastic@@"
+	price: 200
+	unlock: 0
+	icon: "kenworth_t610/mirrors_01"
+	exterior_model: "/vehicle/truck/upgrade/mirror/kenworth_t610/mirror_01.pmd"
+	interior_model: "/vehicle/truck/upgrade/mirror/kenworth_t610/mirror_01_interior.pmd"
+}
+}

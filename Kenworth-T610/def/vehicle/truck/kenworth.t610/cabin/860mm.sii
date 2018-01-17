@@ -1,0 +1,22 @@
+SiiNunit
+{
+accessory_cabin_data : 860mm.kenworth.t610.cabin
+{
+	name: "860mm Sleeper"
+	price: 30000
+	unlock: 0
+	icon: "kenworth_t610/cab_860mm"
+	model: "/vehicle/truck/kenworth_t610/truck.pmd"
+	collision: "/vehicle/truck/kenworth_t610/truck.pmc"
+	variant: 860mm
+	look: default
+	wiper_model: "/vehicle/truck/kenworth_t610/wipers.pmd"
+	wiper_anim: "/vehicle/truck/kenworth_t610/wipers.pma"
+	suspension: true
+	drl_with_headlights: 0.9
+
+	defaults[]: "/def/vehicle/truck/kenworth.t610/interior/860mm_m.sii"
+	defaults[]: "/def/vehicle/truck/kenworth.t610/head_light/standard.sii"
+	defaults[]: "/def/vehicle/truck/kenworth.t610/paint_job/style1_b.sii"
+}
+}

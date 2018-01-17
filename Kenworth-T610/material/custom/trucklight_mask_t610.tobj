@@ -1,0 +1,5 @@
+map 2d
+	trucklight_mask_t610.tga
+addr
+	clamp_to_edge
+	clamp_to_edge

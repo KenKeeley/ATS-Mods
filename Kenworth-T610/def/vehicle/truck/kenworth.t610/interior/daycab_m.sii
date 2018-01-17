@@ -1,0 +1,41 @@
+SiiNunit
+{
+accessory_interior_data : stock.daycab_m.kenworth.t610.interior
+{
+	name: "Diamond VIT Interior/MPH"
+	price: 10000
+	unlock: 0
+	icon: "kenworth_t610/interior_stock"
+
+	model: "/vehicle/truck/kenworth_t610/interior/model.pmd"
+	collision: "/vehicle/truck/kenworth_t610/interior/model.pmc"
+	animated_model: "/vehicle/truck/kenworth_t610/interior/anim.pmd"
+	variant: daycab_m
+	look: stock_m
+
+@include "animations.sui"
+
+	dashboard_path:"/ui/dashboard/kenworth_t610.sii"
+	gps_path:"/ui/gps.sii"
+
+	backlight_with_lights: false
+	air_brake_safeguard: true
+
+	glass_panes[]: .kenworth.t610.pane.front
+	glass_panes[]: .kenworth.t610.pane.close
+	glass_panes[]: .kenworth.t610.pane.far
+	glass_panes[]: .kenworth.t610.pane.back
+
+	suitable_for[]: "daycab.kenworth.t610.cabin"
+	ext_model: "/vehicle/truck/upgrade/ext_interior/kenworth_t610/ext_model.pmd"
+	ext_variant: daycab_m
+	ext_look: stock_m
+
+	defaults[]: "/def/vehicle/truck/kenworth.t610/accessory/steering_w/stock_grey.sii"
+
+@include "dashboard_color.sui"
+@include "seat.sui"
+}
+@include "glass.sui"
+@include "glass_daycab.sui"
+}

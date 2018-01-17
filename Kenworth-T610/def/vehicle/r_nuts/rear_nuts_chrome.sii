@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_rim_data : chrome_alcoa.kenz.rnuts
+{
+	name: "Chrome Alcoa"
+	price: 450
+	unlock: 0
+	model: "/vehicle/truck/upgrade/wheel/nuts/rear_nuts_chrome_alcoa.pmd"
+	icon: "nuts/nuts_chrome_alcoa"
+
+	suitable_for[]: "alcoa.kenz.rdisc"
+}
+}

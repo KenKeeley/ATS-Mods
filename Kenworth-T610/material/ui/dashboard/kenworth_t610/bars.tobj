@@ -1,0 +1,6 @@
+map 2d
+     bars.tga
+addr
+     repeat
+     repeat
+usage ui

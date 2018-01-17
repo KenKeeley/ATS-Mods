@@ -1,0 +1,303 @@
+SiiNunit
+{
+accessory_sound_data : x15.kenworth.t610.isound
+{
+	exterior_sound: false
+
+	start: .start
+	stop: .stop
+	start_no_fuel: .startbad
+
+	engine[]: .e0
+	engine[]: .e1
+	engine[]: .e2
+	engine[]: .e3
+	engine[]: .e4
+
+	engine_load[]: .el0
+	engine_load[]: .el1
+	engine_load[]: .el2
+	engine_load[]: .el3
+	engine_load[]: .el4
+
+	engine_nofuel[]: .enf0
+	engine_nofuel[]: .enf1
+	engine_nofuel[]: .enf2
+
+	air_gear[0]: .airgear0
+	air_gear[1]: .airgear1
+	air_gear[2]: .airgear2
+
+	air_brake[0]: .airbrake0
+	air_brake[1]: .airbrake1
+	air_brake[2]: .airbrake2
+
+	air_horn: .ahorn
+	blinker_on: .blinker_on
+	blinker_off: .blinker_off
+	engine_brake[]: .eb
+	horn: .horn
+	reverse: .reverse
+	turbo: .t
+	wipers_down: .wipers_down
+	wipers_up: .wipers_up
+
+@include "/def/vehicle/truck/common_sound_int.sui"
+
+	suitable_for[]: "x15_485_16.kenworth.t610.engine"
+	suitable_for[]: "x15_485_18.kenworth.t610.engine"
+	suitable_for[]: "x15_505_18.kenworth.t610.engine"
+	suitable_for[]: "x15_525_18.kenworth.t610.engine"
+	suitable_for[]: "x15_565_18.kenworth.t610.engine"
+	suitable_for[]: "x15_605_18.kenworth.t610.engine"
+	suitable_for[]: "x15_605_20.kenworth.t610.engine"
+}
+
+sound_data : .start
+{
+	name: "/sound/truck/kenworth_t610/x15/int/start-int-mono.ogg"
+	looped: false
+}
+
+sound_data : .startbad
+{
+	name: "/sound/truck/kenworth_t610/x15/int/engine_on_bad.ogg"
+	looped: false
+}
+
+sound_data : .stop
+{
+	name: "/sound/truck/kenworth_t610/x15/int/stop-int-mono.ogg"
+	looped: false
+}
+
+sound_engine_data : .e0
+{
+	name: "/sound/truck/kenworth_t610/x15/int/500rpm-int-mono.ogg"
+	looped: true
+	pitch_reference: 650
+	min_rpm: 350.0
+	max_rpm: 880.0
+	volume: 0.75
+}
+
+sound_engine_data : .e1
+{
+	name: "/sound/truck/kenworth_t610/x15/int/1000rpm-int-mono.ogg"
+	looped: true
+	pitch_reference: 970
+	min_rpm: 700.0
+	max_rpm: 1280.0
+	volume: 0.84
+}
+
+sound_engine_data : .e2
+{
+	name: "/sound/truck/kenworth_t610/x15/int/1500rpm-int-mono.ogg"
+	looped: true
+	pitch_reference: 1350
+	min_rpm: 880.0
+	max_rpm: 2200.0
+	volume: 0.64
+}
+
+sound_engine_data : .e3
+{
+	name: "/sound/truck/kenworth_t610/x15/int/2000rpm-int-mono.ogg"
+	looped: true
+	pitch_reference: 1560
+	min_rpm: 1400.0
+	max_rpm: 2850.0
+	volume: 0.65
+}
+
+sound_engine_data : .e4
+{
+	name: "/sound/truck/kenworth_t610/x15/int/turbo_idle_isx.ogg"
+	looped: true
+	pitch_reference: 650
+	min_rpm: 300.0
+	max_rpm: 3500.0
+	volume: 0.2
+}
+
+sound_engine_data : .el0
+{
+	name: "/sound/truck/kenworth_t610/x15/int/exhaust_idle.ogg"
+	looped: true
+	pitch_reference: 680
+	min_rpm: 350.0
+	max_rpm: 1010.0
+	volume: 1.35
+}
+
+sound_engine_data : .el1
+{
+	name: "/sound/truck/kenworth_t610/x15/int/1200rpm-int-exhaust.ogg"
+	looped: true
+	pitch_reference: 1260
+	min_rpm: 760.0
+	max_rpm: 1395.0
+	volume: 1.18
+}
+
+sound_engine_data : .el2
+{
+	name: "/sound/truck/kenworth_t610/x15/int/1500rpm-int-mono.ogg"
+	looped: true
+	pitch_reference: 1350
+	min_rpm: 900.0
+	max_rpm: 1840.0
+	volume: 0.57
+}
+
+sound_engine_data : .el3
+{
+	name: "/sound/truck/kenworth_t610/x15/int/1500rpm-int-exhaust.ogg"
+	looped: true
+	pitch_reference: 1480
+	min_rpm: 1120.0
+	max_rpm: 2350.0
+	volume: 1.92
+}
+
+sound_engine_data : .el4
+{
+	name: "/sound/truck/kenworth_t610/x15/int/2000rpm-int-exhaust.ogg"
+	looped: true
+	pitch_reference: 1890
+	min_rpm: 1640.0
+	max_rpm: 2880.0
+	volume: 1.58
+}
+
+sound_engine_data : .enf0
+{
+	name: "/sound/truck/kenworth_t610/x15/int/1000rpm-int-mono.ogg"
+	looped: true
+	pitch_reference: 970
+	min_rpm: 350.0
+	max_rpm: 1230.0
+	volume: 0.75
+}
+
+sound_engine_data: .enf1
+{
+	name: "/sound/truck/kenworth_t610/x15/int/lever_le_pied.ogg"
+	looped: true
+	pitch_reference:  1560
+	min_rpm: 830.0
+	max_rpm: 2950.0
+	volume: 0.65
+}
+
+sound_engine_data: .enf2
+{
+	name: "/sound/truck/kenworth_t610/x15/int/turbo_idle_isx.ogg"
+	looped: true
+	pitch_reference: 650
+	min_rpm: 350.0
+	max_rpm: 3600.0
+	volume: 0.28
+}
+
+sound_data: .ahorn
+{
+	name: "/sound/truck/default/int/air_horn.ogg"
+	looped: true
+}
+
+sound_data : .airbrake0
+{
+	name: "/sound/truck/kenworth_t610/x15/int/air_brake1.ogg"
+	looped: false
+}
+
+sound_data : .airbrake1
+{
+	name: "/sound/truck/kenworth_t610/x15/int/air_brake2.ogg"
+	looped: false
+}
+
+sound_data : .airbrake2
+{
+	name: "/sound/truck/kenworth_t610/x15/int/air_brake3.ogg"
+	looped: false
+}
+
+sound_data : .airgear0
+{
+	name: "/sound/truck/kenworth_t610/x15/int/int_gear_air_1.ogg"
+	volume: 0.25
+}
+
+sound_data : .airgear1
+{
+	name: "/sound/truck/kenworth_t610/x15/int/int_gear_air_2.ogg"
+	volume: 0.25
+}
+
+sound_data : .airgear2
+{
+	name: "/sound/truck/kenworth_t610/x15/int/int_gear_air_3.ogg"
+	volume: 0.25
+}
+
+sound_data : .blinker_off
+{
+	name: "/sound/truck/kenworth_t610/x15/int/blinker_off.ogg"
+	is_2d: true
+	volume: 0.19
+}
+
+sound_data : .blinker_on
+{
+	name: "/sound/truck/kenworth_t610/x15/int/blinker_on.ogg"
+	is_2d: true
+	volume: 0.19
+}
+
+sound_engine_data : .eb
+{
+	name: "/sound/truck/kenworth_t610/x15/int/engine_brake_int.ogg"
+	looped: true
+	pitch_reference: 1490
+	min_rpm: 750.0
+	max_rpm: 2900.0
+	volume: 1.4
+}
+
+sound_data : .horn
+{
+	name: "/sound/truck/kenworth_t610/x15/int/horn.ogg"
+	looped: true
+}
+sound_data : .reverse
+{
+	name: "/sound/truck/kenworth_t610/x15/int/reverse.ogg"
+	looped: true
+}
+sound_data : .t
+{
+	name: "/sound/truck/kenworth_t610/x15/int/turbo_int.ogg"
+	looped: true
+	volume: 0.14
+}
+
+sound_data : .wipers_down
+{
+	name: "/sound/truck/kenworth_t610/x15/int/wiper_down.ogg"
+	is_2d: true
+	volume: 0.3
+}
+
+sound_data : .wipers_up
+{
+	name: "/sound/truck/kenworth_t610/x15/int/wiper_up.ogg"
+	is_2d: true
+	volume: 0.3
+}
+
+@include "/def/vehicle/truck/common_sound_int_data.sui"
+
+}

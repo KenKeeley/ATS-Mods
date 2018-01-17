@@ -1,0 +1,145 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.79.0 (hash: 5bd8ac9), SCS Blender Tools: 1.10.6cefe1f"
+    Type: "Model"
+    Name: "wipers"
+}
+Global {
+    VertexCount: 8
+    TriangleCount: 12
+    MaterialCount: 1
+    PieceCount: 1
+    PartCount: 1
+    BoneCount: 2
+    LocatorCount: 0
+    Skeleton: "wipers.pis"
+}
+Material {
+    Alias: "ShadowOnly"
+    Effect: "eut2.shadowonly"
+}
+Piece {
+    Index: 0
+    Material: 0
+    VertexCount: 8
+    TriangleCount: 12
+    StreamCount: 4
+    Stream {
+        Format: FLOAT3
+        Tag: "_POSITION"
+        0    ( &bf800000  &3f7fffff  &3f800001 )
+        1    ( &bf800000  &bf7fffff  &bf800001 )
+        2    ( &bf800000  &bf800001  &3f7fffff )
+        3    ( &bf800000  &3f800001  &bf7fffff )
+        4    ( &3f800000  &bf7fffff  &bf800001 )
+        5    ( &3f800000  &3f800001  &bf7fffff )
+        6    ( &3f800000  &bf800001  &3f7fffff )
+        7    ( &3f800000  &3f7fffff  &3f800001 )
+    }
+    Stream {
+        Format: FLOAT3
+        Tag: "_NORMAL"
+        0    ( &bf800000  &00000000  &00000000 )
+        1    ( &bf800000  &00000000  &00000000 )
+        2    ( &bf800000  &00000000  &00000000 )
+        3    ( &00000000  &33a22169  &bf800000 )
+        4    ( &00000000  &33a22169  &bf800000 )
+        5    ( &3f800000  &00000000  &00000000 )
+        6    ( &3f800000  &00000000  &00000000 )
+        7    ( &00000000  &b3a22169  &3f800000 )
+    }
+    Stream {
+        Format: FLOAT2
+        Tag: "_UV0"
+        AliasCount: 1
+        Aliases: "_TEXCOORD0"
+        0    ( &00000000  &00000000 )
+        1    ( &00000000  &00000000 )
+        2    ( &00000000  &00000000 )
+        3    ( &00000000  &00000000 )
+        4    ( &00000000  &00000000 )
+        5    ( &00000000  &00000000 )
+        6    ( &00000000  &00000000 )
+        7    ( &00000000  &00000000 )
+    }
+    Stream {
+        Format: FLOAT4
+        Tag: "_RGBA"
+        0    ( &3f7efeff  &3f7efeff  &3f7efeff  &3f7efeff )
+        1    ( &3f7efeff  &3f7efeff  &3f7efeff  &3f7efeff )
+        2    ( &3f7efeff  &3f7efeff  &3f7efeff  &3f7efeff )
+        3    ( &3f7efeff  &3f7efeff  &3f7efeff  &3f7efeff )
+        4    ( &3f7efeff  &3f7efeff  &3f7efeff  &3f7efeff )
+        5    ( &3f7efeff  &3f7efeff  &3f7efeff  &3f7efeff )
+        6    ( &3f7efeff  &3f7efeff  &3f7efeff  &3f7efeff )
+        7    ( &3f7efeff  &3f7efeff  &3f7efeff  &3f7efeff )
+    }
+    Triangles {
+        0    ( 2     1     0 )
+        1    ( 1     4     3 )
+        2    ( 4     6     5 )
+        3    ( 6     2     7 )
+        4    ( 1     2     4 )
+        5    ( 5     7     3 )
+        6    ( 1     3     0 )
+        7    ( 4     5     3 )
+        8    ( 6     7     5 )
+        9    ( 2     0     7 )
+        10   ( 2     6     4 )
+        11   ( 7     0     3 )
+    }
+}
+Part {
+    Name: "defaultpart"
+    PieceCount: 1
+    LocatorCount: 0
+    Pieces: 0
+    Locators:
+}
+Bones {
+    0    ( "root" )
+    1    ( "wiperl_01" )
+}
+Skin {
+    StreamCount: 1
+    SkinStream {
+        Format: FLOAT3
+        Tag: "_POSITION"
+        ItemCount: 8
+        TotalWeightCount: 8
+        TotalCloneCount: 8
+        0     ( ( &bf800000  &3f7fffff  &3f800001 )
+                Weights: 1      1    &3f800000
+                Clones: 1      0    0
+              )
+        1     ( ( &bf800000  &bf7fffff  &bf800001 )
+                Weights: 1      1    &3f800000
+                Clones: 1      0    1
+              )
+        2     ( ( &bf800000  &bf800001  &3f7fffff )
+                Weights: 1      1    &3f800000
+                Clones: 1      0    2
+              )
+        3     ( ( &bf800000  &3f800001  &bf7fffff )
+                Weights: 1      1    &3f800000
+                Clones: 1      0    3
+              )
+        4     ( ( &3f800000  &bf7fffff  &bf800001 )
+                Weights: 1      1    &3f800000
+                Clones: 1      0    4
+              )
+        5     ( ( &3f800000  &3f800001  &bf7fffff )
+                Weights: 1      1    &3f800000
+                Clones: 1      0    5
+              )
+        6     ( ( &3f800000  &bf800001  &3f7fffff )
+                Weights: 1      1    &3f800000
+                Clones: 1      0    6
+              )
+        7     ( ( &3f800000  &3f7fffff  &3f800001 )
+                Weights: 1      1    &3f800000
+                Clones: 1      0    7
+              )
+    }
+}
+

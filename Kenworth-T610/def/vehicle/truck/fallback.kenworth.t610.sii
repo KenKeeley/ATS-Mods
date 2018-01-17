@@ -1,0 +1,166 @@
+SiiNunit
+{
+vehicle: .fallback.kenworth.t610
+{
+ accessories[]: .t610_f.cabin
+ accessories[]: .t610_f.chassis
+ accessories[]: .t610_f.data
+ accessories[]: .t610_f.doorhndl
+ accessories[]: .t610_f.engine
+ accessories[]: .t610_f.fdisc
+ accessories[]: .t610_f.fhub
+ accessories[]: .t610_f.fnuts
+ accessories[]: .t610_f.ftire
+ accessories[]: .t610_f.headlight
+ accessories[]: .t610_f.interior
+ accessories[]: .t610_f.mirror
+ accessories[]: .t610_f.paintjob
+ accessories[]: .t610_f.rdisc
+ accessories[]: .t610_f.rdisc2
+ accessories[]: .t610_f.rhub
+ accessories[]: .t610_f.rhub2
+ accessories[]: .t610_f.rnuts
+ accessories[]: .t610_f.rnuts2
+ accessories[]: .t610_f.rtire
+ accessories[]: .t610_f.rtire2
+ accessories[]: .t610_f.sound.ext
+ accessories[]: .t610_f.sound.int
+ accessories[]: .t610_f.swheel
+ accessories[]: .t610_f.transmission
+
+ fuel_relative: 1.0
+}
+
+vehicle_accessory : .t610_f.cabin {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/cabin/daycab.sii"
+}
+
+vehicle_accessory : .t610_f.chassis {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/chassis/6x4_5200.sii"
+}
+
+vehicle_accessory : .t610_f.data {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/data.sii"
+}
+
+vehicle_addon_accessory : .t610_f.doorhndl {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/accessory/doorhndl/shape1.sii"
+}
+
+vehicle_accessory : .t610_f.engine {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/engine/x15_485_16.sii"
+}
+
+vehicle_wheel_accessory : .t610_f.fdisc {
+ wear: 0
+ data_path: "/def/vehicle/f_disc/front_disc_alcoa.sii"
+}
+
+vehicle_wheel_accessory : .t610_f.fhub {
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_kenworth.sii"
+ paint_color: (0.005, 0.005, 0.005)
+}
+
+vehicle_wheel_accessory : .t610_f.fnuts {
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_chrome.sii"
+}
+
+vehicle_wheel_accessory : .t610_f.ftire {
+ wear: 0
+ data_path: "/def/vehicle/f_tire/bridgestone_295_80.sii"
+}
+
+vehicle_accessory : .t610_f.headlight {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/head_light/standard.sii"
+}
+
+vehicle_accessory : .t610_f.interior {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/interior/daycab_m.sii"
+}
+
+vehicle_addon_accessory : .t610_f.mirror {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/accessory/mirror/shape1.sii"
+}
+
+vehicle_paint_job_accessory : .t610_f.paintjob {
+ wear: 0
+ mask_b_color: (0.005, 0.005, 0.005)
+ base_color  : (0.151, 0.0017, 0.0075)
+ data_path: "/def/vehicle/truck/kenworth.t610/paint_job/style1_b.sii"
+}
+
+vehicle_wheel_accessory : .t610_f.rdisc {
+ wear: 0
+ data_path: "/def/vehicle/r_disc/rear_disc_alcoa.sii"
+}
+
+vehicle_wheel_accessory : .t610_f.rdisc2 {
+ wear: 0
+ offset: 2
+ data_path: "/def/vehicle/r_disc/rear_disc_alcoa.sii"
+}
+
+vehicle_wheel_accessory : .t610_f.rhub {
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_kenworth.sii"
+ paint_color: (0.005, 0.005, 0.005)
+}
+
+vehicle_wheel_accessory : .t610_f.rhub2 {
+ wear: 0
+ offset: 2
+ data_path: "/def/vehicle/r_hub/rear_hub_kenworth.sii"
+ paint_color: (0.005, 0.005, 0.005)
+}
+
+vehicle_wheel_accessory : .t610_f.rnuts {
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_chrome.sii"
+}
+
+vehicle_wheel_accessory : .t610_f.rnuts2 {
+ wear: 0
+ offset: 2
+ data_path: "/def/vehicle/r_nuts/rear_nuts_chrome.sii"
+}
+
+vehicle_wheel_accessory : .t610_f.rtire {
+ wear: 0
+ data_path: "/def/vehicle/r_tire/bridgestone_11r22.sii"
+}
+
+vehicle_wheel_accessory : .t610_f.rtire2 {
+ wear: 0
+ offset: 2
+ data_path: "/def/vehicle/r_tire/bridgestone_11r22.sii"
+}
+
+vehicle_sound_accessory : .t610_f.sound.ext {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/sound/exterior_x15.sii"
+}
+
+vehicle_sound_accessory : .t610_f.sound.int {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/sound/interior_x15.sii"
+}
+
+vehicle_addon_accessory : .t610_f.swheel {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/accessory/steering_w/stock_grey.sii"
+}
+
+vehicle_accessory : .t610_f.transmission {
+ wear: 0
+ data_path: "/def/vehicle/truck/kenworth.t610/transmission/rtlo16918b_285.sii"
+}

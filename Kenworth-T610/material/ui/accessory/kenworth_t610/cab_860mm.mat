@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "cab_860mm.tobj"
+	texture_name : "texture"
+}

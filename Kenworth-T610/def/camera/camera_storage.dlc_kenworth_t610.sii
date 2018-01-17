@@ -1,0 +1,6 @@
+SiiNunit
+{
+@include "units/interior_kenworth_t610.sii"
+}
+
+

@@ -1,0 +1,45 @@
+SiiNunit
+{
+accessory_truck_data : vehicle.kenworth.t610
+{
+	info[]: "Kenworth"
+	info[]: "T610"
+
+	behind_camera: camera.behind.basic
+	interior_camera: camera.interior.kenworth.t610
+	interior_camera_oculus: camera.interior.kenworth.t610.oculus
+	bumper_camera: camera.bumper.basic
+	window_camera: camera.window.basic
+	cabin_camera: camera.cabin.basic
+	wheel_camera: camera.wheel.basic
+	top_camera: camera.top.basic
+	tv_camera: camera.tv.basic
+	wander_camera: camera.wander
+	debug_camera: camera.debug
+
+	fallback[]: "cabin|daycab.sii"
+	fallback[]: "chassis|6x4_5200.sii"
+	fallback[]: "engine|x15_485_16.sii"
+	fallback[]: "fdisc|front_disc_alcoa.sii"
+	fallback[]: "fhub|front_hub_kenworth.sii"
+	fallback[]: "fnuts|front_nuts_chrome.sii"
+	fallback[]: "f_tire|bridgestone_295_80.sii"
+	fallback[]: "head_light|standard.sii"
+	fallback[]: "interior|daycab_m.sii"
+	fallback[]: "paint_job|style1_a.sii"
+	fallback[]: "rdisc|rear_disc_alcoa.sii"
+	fallback[]: "rdisc2|rear_disc_alcoa.sii"
+	fallback[]: "rhub|rear_hub_kenworth.sii"
+	fallback[]: "rhub2|rear_hub_kenworth.sii"
+	fallback[]: "rnuts|rear_nuts_chrome.sii"
+	fallback[]: "rnuts2|rear_nuts_chrome.sii"
+	fallback[]: "r_tire|bridgestone_11r22.sii"
+	fallback[]: "r_tire2|bridgestone_11r22.sii"
+	fallback[]: "transmission|rtlo16918b_285.sii"
+
+	require[]: doorhndl
+	require[]: mirror
+	require[]: steering_w
+
+}
+}

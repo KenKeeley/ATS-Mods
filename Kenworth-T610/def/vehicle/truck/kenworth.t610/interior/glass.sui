@@ -1,0 +1,41 @@
+glass_pane_data : .kenworth.t610.pane.front
+{
+	locator: front_glass
+	size: (2.4, 1.0)
+	edge_angle: 30
+	wipers[]: .kenworth.t610.pane.wiper1
+	wipers[]: .kenworth.t610.pane.wiper2
+
+	drop_size_minimum: 0.010
+	drop_size_maximum: 0.018
+}
+
+wiper_data : .kenworth.t610.pane.wiper1
+{
+	center_bone: wiper_r_tip
+	length: 0.7
+}
+
+wiper_data : .kenworth.t610.pane.wiper2
+{
+	center_bone: wiper_l_tip
+	length: 0.7
+}
+
+glass_pane_data : .kenworth.t610.pane.close
+{
+	locator: close_glass
+	size: (0.9, 0.7)
+
+	drop_size_minimum: 0.010
+	drop_size_maximum: 0.018
+}
+
+glass_pane_data : .kenworth.t610.pane.far
+{
+	locator: far_glass
+	size: (0.9, 0.7)
+
+	drop_size_minimum: 0.013
+	drop_size_maximum: 0.020
+}

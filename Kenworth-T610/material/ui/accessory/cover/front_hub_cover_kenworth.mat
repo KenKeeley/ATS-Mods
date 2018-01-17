@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "front_hub_cover_kenworth.tobj"
+	texture_name : "texture"
+}

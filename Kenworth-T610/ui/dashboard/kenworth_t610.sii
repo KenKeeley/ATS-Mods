@@ -1,0 +1,1870 @@
+SiiNunit
+{
+ui::window : kenkeeley.t610 {
+ clip_children: true
+ window_handler: null
+ keep_aspect: none
+ fitting: false
+ my_children[]: .back.unlit
+ my_children[]: .back.lit
+ my_children[]: .display.shared
+ my_children[]: .display.1			# Driver Performance
+ my_children[]: .display.2			# Speedo
+ my_children[]: .display.3			# Fuel
+ my_children[]: .display.4			# Consumption
+ my_children[]: .display.5			# Trip
+ my_children[]: .display.6			# Temperature
+ my_children[]: .display.7			# Air Pressures
+ my_children[]: .display.8			# Engine Pressures
+ my_children[]: .display.warnings	# Visit SERVICE!
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 744
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 744
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+ui::text : .back.unlit {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/backing.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 744
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 10
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::text : .back.lit {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/backing.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 744
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 20
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::group : .display.shared {
+ fitting: false
+ my_children[]: .shared.fuel.warning
+ my_children[]: .shared.general.warning
+ my_children[]: .shared.engine
+ my_children[]: .shared.air.warning
+ my_children[]: .shared.cruise.active
+ my_children[]: .shared.retarder
+ my_children[]: .shared.park
+ my_children[]: .shared.gear
+ my_children[]: .shared.clock
+ my_children[]: .shared.odometer
+ my_children[]: .shared.weather
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 744
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 774
+ area_b: 0
+ id: 950
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::group : .shared.fuel.warning {
+ fitting: false
+ my_children[]: .shared.fuel.warning.icon
+ my_children[]: .shared.fuel.warning.sound
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 744
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 744
+ area_b: 0
+ id: 1200
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::text : .shared.fuel.warning.icon {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p256 top=p128 right=p319 bottom=p191 xscale=stretch yscale=stretch color=FF3030FF>"
+ coords_l: 70
+ coords_r: 190
+ coords_t: 290
+ coords_b: 210
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .shared.fuel.warning
+}
+
+ui::text : .shared.fuel.warning.sound {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/fuel_sound.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1
+ coords_t: 1
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .shared.fuel.warning
+}
+
+ui::group : .shared.general.warning {
+ fitting: false
+ my_children[]: .shared.general.warning.icon
+ my_children[]: .shared.general.warning.sound
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 744
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 744
+ area_b: 0
+ id: 1190
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::text : .shared.general.warning.icon {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p320 top=p128 right=p383 bottom=p191 xscale=stretch yscale=stretch color=FF0080FF>"
+ coords_l: 75
+ coords_r: 184
+ coords_t: 195
+ coords_b: 125
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1190
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .shared.general.warning
+}
+
+ui::text : .shared.general.warning.sound {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/warning.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1
+ coords_t: 1
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .shared.general.warning
+}
+
+ui::text : .shared.engine {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p384 top=p128 right=p447 bottom=p191 xscale=stretch yscale=stretch color=FF00FF80>"
+ coords_l: 260
+ coords_r: 380
+ coords_t: 290
+ coords_b: 210
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1230
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::text : .shared.air.warning {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p448 top=p128 right=p511 bottom=p191 xscale=stretch yscale=stretch color=FF0080FF>"
+ coords_l: 260
+ coords_r: 380
+ coords_t: 200
+ coords_b: 120
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1260
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::group : .shared.cruise.active {
+ fitting: false
+ my_children[]: .shared.cruise.active.icon
+ my_children[]: .shared.cruise.active.text
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 744
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 744
+ area_b: 0
+ id: 1240
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::text : .shared.cruise.active.icon {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p256 top=p192 right=p319 bottom=p255 xscale=stretch yscale=stretch color=FF00FF80>"
+ coords_l: 428
+ coords_r: 588
+ coords_t: 295
+ coords_b: 165
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .shared.cruise.active
+}
+
+ui::text_common : .shared.cruise.active.text {
+ value: "124|km"
+ look_template: kenkeeley.t610.cruise
+ text: ""
+ coords_l: 433
+ coords_r: 583
+ coords_t: 170
+ coords_b: 110
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .shared.cruise.active
+}
+
+ui::text : .shared.retarder {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p320 top=p192 right=p383 bottom=p255 xscale=stretch yscale=stretch color=FF0080FF>"
+ coords_l: 645
+ coords_r: 765
+ coords_t: 290
+ coords_b: 210
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1290
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::text : .shared.park {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p384 top=p192 right=p447 bottom=p255 xscale=stretch yscale=stretch color=FF3030FF>"
+ coords_l: 645
+ coords_r: 765
+ coords_t: 200
+ coords_b: 120
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1270
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::group : .shared.gear {
+ fitting: false
+ my_children[]: .shared.gear.icon
+ my_children[]: .shared.gear.text
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 744
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 744
+ area_b: 0
+ id: 0
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::text : .shared.gear.icon {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p448 top=p192 right=p511 bottom=p255 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 785
+ coords_r: 980
+ coords_t: 285
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .shared.gear
+}
+
+ui::text_common : .shared.gear.text {
+ value: "N"
+ look_template: kenkeeley.t610.gear
+ text: ""
+ coords_l: 785
+ coords_r: 980
+ coords_t: 265
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1040
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .shared.gear
+}
+
+ui::text_common : .shared.clock {
+ value: "99:99 pm"
+ look_template: kenkeeley.t610.clock
+ text: ""
+ coords_l: 55
+ coords_r: 305
+ coords_t: 82
+ coords_b: 37
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::text_common : .shared.odometer {
+ value: "00000000|km"
+ look_template: kenkeeley.t610.odometer
+ text: ""
+ coords_l: 315
+ coords_r: 709
+ coords_t: 82
+ coords_b: 37
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::text_common : .shared.weather {
+ value: "999|C"
+ look_template: kenkeeley.t610.outtemp
+ text: ""
+ coords_l: 719
+ coords_r: 969
+ coords_t: 82
+ coords_b: 37
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.shared
+}
+
+ui::group : .display.1 {
+ fitting: false
+ my_children[]: .display.1.back
+ my_children[]: .display.1.title
+ my_children[]: .display.1.menu
+ my_children[]: .display.1.icons
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 744
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 774
+ area_b: 0
+ id: 100
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::text : .display.1.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/display.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 774
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.1
+}
+
+ui::text_common : .display.1.title {
+ value: "Driver Performance"
+ look_template: kenkeeley.t610.title
+ text: ""
+ coords_l: 55
+ coords_r: 969
+ coords_t: 712
+ coords_b: 637
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.1
+}
+
+ui::text : .display.1.menu {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p0 top=p0 right=p63 bottom=p127 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 850
+ coords_r: 974
+ coords_t: 560
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.1
+}
+
+ui::text : .display.1.icons {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p256 top=p256 right=p511 bottom=p383 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 55
+ coords_r: 765
+ coords_t: 610
+ coords_b: 320
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.1
+}
+
+ui::group : .display.2 {
+ fitting: false
+ my_children[]: .display.2.back
+ my_children[]: .display.2.title
+ my_children[]: .display.2.menu
+ my_children[]: .display.2.speed
+ coords_l: 0
+ coords_r: 1980
+ coords_t: 1540
+ coords_b: 0
+ area_l: 0
+ area_r: 1980
+ area_t: 1540
+ area_b: 0
+ id: 200
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::text : .display.2.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/display.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 774
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.2
+}
+
+ui::text_common : .display.2.title {
+ value: "Gauges: Speed"
+ look_template: kenkeeley.t610.title
+ text: ""
+ coords_l: 55
+ coords_r: 969
+ coords_t: 712
+ coords_b: 637
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.2
+}
+
+ui::text : .display.2.menu {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p64 top=p0 right=p127 bottom=p127 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 850
+ coords_r: 974
+ coords_t: 560
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.2
+}
+
+ui::text_common : .display.2.speed {
+ value: "120|km/h"
+ look_template: kenkeeley.t610.big_speed
+ text: ""
+ coords_l: 55
+ coords_r: 765
+ coords_t: 580
+ coords_b: 410
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.2
+}
+
+ui::group : .display.3 {
+ fitting: false
+ my_children[]: .display.3.back
+ my_children[]: .display.3.title
+ my_children[]: .display.3.menu
+ my_children[]: .display.3.icons
+ my_children[]: .display.3.range.text
+ my_children[]: .display.3.range.data
+ my_children[]: .display.3.remaining.text
+ my_children[]: .display.3.remaining.data
+ my_children[]: .display.3.fuel.back
+ my_children[]: .display.3.fuel.bar
+ my_children[]: .display.3.fuel.data
+ coords_l: 0
+ coords_r: 1980
+ coords_t: 1540
+ coords_b: 0
+ area_l: 0
+ area_r: 1980
+ area_t: 1540
+ area_b: 0
+ id: 300
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::text : .display.3.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/display.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 774
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::text_common : .display.3.title {
+ value: "Gauges: Fuel"
+ look_template: kenkeeley.t610.title
+ text: ""
+ coords_l: 55
+ coords_r: 969
+ coords_t: 712
+ coords_b: 637
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::text : .display.3.menu {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p128 top=p0 right=p191 bottom=p127 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 850
+ coords_r: 974
+ coords_t: 560
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::text : .display.3.icons {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p64 top=p128 right=p127 bottom=p255 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 55
+ coords_r: 179
+ coords_t: 580
+ coords_b: 360
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::text_common : .display.3.range.text {
+ value: "Distance"
+ look_template: kenkeeley.t610.text.left
+ text: ""
+ coords_l: 70
+ coords_r: 400
+ coords_t: 585
+ coords_b: 545
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::text_common : .display.3.range.data {
+ value: "8888|km"
+ look_template: kenkeeley.t610.range
+ text: ""
+ coords_l: 400
+ coords_r: 765
+ coords_t: 585
+ coords_b: 545
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::text_common : .display.3.remaining.text {
+ value: "Fuel"
+ look_template: kenkeeley.t610.text.left
+ text: ""
+ coords_l: 70
+ coords_r: 400
+ coords_t: 520
+ coords_b: 480
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::text_common : .display.3.remaining.data {
+ value: "8888|l"
+ look_template: kenkeeley.t610.remaining
+ text: ""
+ coords_l: 400
+ coords_r: 765
+ coords_t: 520
+ coords_b: 480
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1060
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::text : .display.3.fuel.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p0 top=p384 right=p255 bottom=p415 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 435
+ coords_b: 365
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::text : .display.3.fuel.bar {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/bars.mat bottom=p32 xscale=repeat yscale=stretch color=FFFFFFFF>"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 435
+ coords_b: 365
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1070
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::text : .display.3.fuel.data {
+ text: "H~~0~~1"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 435
+ coords_b: 365
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1075
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.3
+}
+
+ui::group : .display.4 {
+ fitting: false
+ my_children[]: .display.4.back
+ my_children[]: .display.4.title
+ my_children[]: .display.4.menu
+ my_children[]: .display.4.instant.text
+ my_children[]: .display.4.instant.data
+ my_children[]: .display.4.average.text
+ my_children[]: .display.4.average.data
+ coords_l: 0
+ coords_r: 1980
+ coords_t: 1540
+ coords_b: 0
+ area_l: 0
+ area_r: 1980
+ area_t: 1540
+ area_b: 0
+ id: 400
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::text : .display.4.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/display.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 774
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.4
+}
+
+ui::text_common : .display.4.title {
+ value: "Gauges: Economy"
+ look_template: kenkeeley.t610.title
+ text: ""
+ coords_l: 55
+ coords_r: 969
+ coords_t: 712
+ coords_b: 637
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.4
+}
+
+ui::text : .display.4.menu {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p192 top=p0 right=p255 bottom=p127 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 850
+ coords_r: 974
+ coords_t: 560
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.4
+}
+
+ui::text_common : .display.4.instant.text {
+ value: "Instant"
+ look_template: kenkeeley.t610.text.left
+ text: ""
+ coords_l: 70
+ coords_r: 400
+ coords_t: 540
+ coords_b: 500
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.4
+}
+
+ui::text_common : .display.4.instant.data {
+ value: "888.8|gal/100km"
+ look_template: kenkeeley.t610.instant
+ text: ""
+ coords_l: 400
+ coords_r: 765
+ coords_t: 540
+ coords_b: 500
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1160
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.4
+}
+
+ui::text_common : .display.4.average.text {
+ value: "Average"
+ look_template: kenkeeley.t610.text.left
+ text: ""
+ coords_l: 70
+ coords_r: 400
+ coords_t: 470
+ coords_b: 430
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.4
+}
+
+ui::text_common : .display.4.average.data {
+ value: "888.8|gal/100km"
+ look_template: kenkeeley.t610.average
+ text: ""
+ coords_l: 400
+ coords_r: 765
+ coords_t: 470
+ coords_b: 430
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.4
+}
+
+
+ui::group : .display.5 {
+ fitting: false
+ my_children[]: .display.5.back
+ my_children[]: .display.5.title
+ my_children[]: .display.5.menu
+ my_children[]: .display.5.distance.text
+ my_children[]: .display.5.distance.data
+ my_children[]: .display.5.running.text
+ my_children[]: .display.5.running.data
+ coords_l: 0
+ coords_r: 1980
+ coords_t: 1540
+ coords_b: 0
+ area_l: 0
+ area_r: 1980
+ area_t: 1540
+ area_b: 0
+ id: 500
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::text : .display.5.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/display.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 774
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.5
+}
+
+ui::text_common : .display.5.title {
+ value: "Gauges: Trip"
+ look_template: kenkeeley.t610.title
+ text: ""
+ coords_l: 55
+ coords_r: 969
+ coords_t: 712
+ coords_b: 637
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.5
+}
+
+ui::text : .display.5.menu {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p256 top=p0 right=p319 bottom=p127 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 850
+ coords_r: 974
+ coords_t: 560
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.5
+}
+
+ui::text_common : .display.5.distance.text {
+ value: "Distance"
+ look_template: kenkeeley.t610.text.left
+ text: ""
+ coords_l: 70
+ coords_r: 400
+ coords_t: 540
+ coords_b: 500
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.5
+}
+
+ui::text_common : .display.5.distance.data {
+ value: "8888888|km"
+ look_template: kenkeeley.t610.distance
+ text: ""
+ coords_l: 400
+ coords_r: 765
+ coords_t: 540
+ coords_b: 500
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.5
+}
+
+ui::text_common : .display.5.running.text {
+ value: "Time"
+ look_template: kenkeeley.t610.text.left
+ text: ""
+ coords_l: 70
+ coords_r: 400
+ coords_t: 470
+ coords_b: 430
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.5
+}
+
+ui::text_common : .display.5.running.data {
+ value: "8888|h"
+ look_template: kenkeeley.t610.running
+ text: ""
+ coords_l: 400
+ coords_r: 765
+ coords_t: 470
+ coords_b: 430
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1280
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.5
+}
+
+ui::group : .display.6 {
+ fitting: false
+ my_children[]: .display.6.back
+ my_children[]: .display.6.title
+ my_children[]: .display.6.menu
+ my_children[]: .display.6.water.temp.icon
+ my_children[]: .display.6.water.temp.data
+ my_children[]: .display.6.oil.temp.icon
+ my_children[]: .display.6.oil.temp.data
+ coords_l: 0
+ coords_r: 1980
+ coords_t: 1540
+ coords_b: 0
+ area_l: 0
+ area_r: 1980
+ area_t: 1540
+ area_b: 0
+ id: 600
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::text : .display.6.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/display.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 774
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.6
+}
+
+ui::text_common : .display.6.title {
+ value: "Gauges: Oil & Water Temps"
+ look_template: kenkeeley.t610.title
+ text: ""
+ coords_l: 55
+ coords_r: 969
+ coords_t: 712
+ coords_b: 637
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.6
+}
+
+ui::text : .display.6.menu {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p320 top=p0 right=p383 bottom=p127 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 850
+ coords_r: 974
+ coords_t: 560
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.6
+}
+
+ui::text : .display.6.water.temp.icon {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p0 top=p256 right=p63 bottom=p319 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 195
+ coords_r: 360
+ coords_t: 580
+ coords_b: 440
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.6
+}
+
+ui::text_common : .display.6.water.temp.data {
+ value: "888|C"
+ look_template: kenkeeley.t610.text.water
+ text: ""
+ coords_l: 145
+ coords_r: 410
+ coords_t: 440
+ coords_b: 380
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1010
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.6
+}
+
+ui::text : .display.6.oil.temp.icon {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p0 top=p320 right=p63 bottom=p383 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 460
+ coords_r: 625
+ coords_t: 580
+ coords_b: 440
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.6
+}
+
+ui::text_common : .display.6.oil.temp.data {
+ value: "888|C"
+ look_template: kenkeeley.t610.text.oil
+ text: ""
+ coords_l: 410
+ coords_r: 695
+ coords_t: 440
+ coords_b: 380
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1090
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.6
+}
+
+ui::group : .display.7 {
+ fitting: false
+ my_children[]: .display.7.back
+ my_children[]: .display.7.title
+ my_children[]: .display.7.menu
+ my_children[]: .display.7.icons
+ my_children[]: .display.7.air.back
+ my_children[]: .display.7.air.bar
+ my_children[]: .display.7.air.data
+ coords_l: 0
+ coords_r: 1980
+ coords_t: 1540
+ coords_b: 0
+ area_l: 0
+ area_r: 1980
+ area_t: 1540
+ area_b: 0
+ id: 700
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::text : .display.7.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/display.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 774
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.7
+}
+
+ui::text_common : .display.7.title {
+ value: "Gauges: Air Pressures"
+ look_template: kenkeeley.t610.title
+ text: ""
+ coords_l: 55
+ coords_r: 969
+ coords_t: 712
+ coords_b: 637
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.7
+}
+
+ui::text : .display.7.menu {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p384 top=p0 right=p447 bottom=p127 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 850
+ coords_r: 974
+ coords_t: 560
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.7
+}
+
+ui::text : .display.7.icons {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p64 top=p256 right=p127 bottom=p383 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 55
+ coords_r: 179
+ coords_t: 570
+ coords_b: 350
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.7
+}
+
+ui::text : .display.7.air.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p0 top=p384 right=p255 bottom=p467 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 555
+ coords_b: 375
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.7
+}
+
+ui::text : .display.7.air.bar {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/bars.mat xscale=repeat yscale=stretch color=FFFFFFFF>"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 550
+ coords_b: 370
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1120
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.7
+}
+
+ui::text : .display.7.air.data {
+ text: "H~~0~~12"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 550
+ coords_b: 370
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1125
+ layer: 2
+ my_parent: .display.7
+}
+
+ui::group : .display.8 {
+ fitting: false
+ my_children[]: .display.8.back
+ my_children[]: .display.8.title
+ my_children[]: .display.8.menu
+ my_children[]: .display.8.icons
+ my_children[]: .display.8.oil.back
+ my_children[]: .display.8.oil.bar
+ my_children[]: .display.8.oil.data
+ my_children[]: .display.8.turbo.back
+ my_children[]: .display.8.turbo.bar
+ my_children[]: .display.8.turbo.data
+ coords_l: 0
+ coords_r: 1980
+ coords_t: 1540
+ coords_b: 0
+ area_l: 0
+ area_r: 1980
+ area_t: 1540
+ area_b: 0
+ id: 800
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::text : .display.8.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/display.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 774
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.8
+}
+
+ui::text_common : .display.8.title {
+ value: "Gauges: Engine Pressures"
+ look_template: kenkeeley.t610.title
+ text: ""
+ coords_l: 55
+ coords_r: 969
+ coords_t: 712
+ coords_b: 637
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.8
+}
+
+ui::text : .display.8.menu {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p448 top=p0 right=p511 bottom=p127 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 850
+ coords_r: 974
+ coords_t: 560
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.8
+}
+
+ui::text : .display.8.icons {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p128 top=p255 right=p191 bottom=p383 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 50
+ coords_r: 159
+ coords_t: 550
+ coords_b: 380
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.8
+}
+
+ui::text : .display.8.oil.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p0 top=p384 right=p255 bottom=p415 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 555
+ coords_b: 485
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.8
+}
+
+ui::text : .display.8.oil.bar {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/bars.mat bottom=p32 xscale=repeat yscale=stretch color=FFFFFFFF>"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 555
+ coords_b: 485
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1110
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.8
+}
+
+ui::text : .display.8.oil.data {
+ text: "H~~0~~1"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 555
+ coords_b: 485
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1115
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.8
+}
+
+ui::text : .display.8.turbo.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p0 top=p384 right=p255 bottom=p415 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 445
+ coords_b: 375
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.8
+}
+
+ui::text : .display.8.turbo.bar {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/bars.mat bottom=p32 xscale=repeat yscale=stretch color=FFFFFFFF>"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 445
+ coords_b: 375
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1130
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.8
+}
+
+ui::text : .display.8.turbo.data {
+ text: "H~~0~~1"
+ coords_l: 180
+ coords_r: 760
+ coords_t: 445
+ coords_b: 375
+area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1135
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.8
+}
+
+ui::group : .display.warnings {
+ fitting: false
+ my_children[]: .display.warnings.back
+ my_children[]: .display.warnings.title
+ my_children[]: .display.warnings.menu
+ my_children[]: .display.warnings.icon
+ my_children[]: .display.warnings.text1
+ my_children[]: .display.warnings.text2
+ coords_l: 0
+ coords_r: 1980
+ coords_t: 1540
+ coords_b: 0
+ area_l: 0
+ area_r: 1980
+ area_t: 1540
+ area_b: 0
+ id: 900
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: kenkeeley.t610
+}
+
+ui::text : .display.warnings.back {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/display.mat xscale=stretch yscale=stretch color=FF0000FF>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 774
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.warnings
+}
+
+ui::text_common : .display.warnings.title {
+ value: "Warnings & Faults:"
+ look_template: kenkeeley.t610.title.red
+ text: ""
+ coords_l: 55
+ coords_r: 969
+ coords_t: 712
+ coords_b: 637
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.warnings
+}
+
+ui::text : .display.warnings.menu {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p0 top=p128 right=p63 bottom=p255 xscale=stretch yscale=stretch color=FF0000FF>"
+ coords_l: 850
+ coords_r: 974
+ coords_t: 560
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.warnings
+}
+
+ui::text : .display.warnings.icon {
+ text: "<img src=/material/ui/dashboard/kenworth_t610/pictures.mat left=p256 top=p384 right=p511 bottom=p511 xscale=stretch yscale=stretch color=FF0000FF>"
+ coords_l: 50
+ coords_r: 550
+ coords_t: 560
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.warnings
+}
+
+ui::text_common : .display.warnings.text1 {
+ value: "Malfunction"
+ look_template: kenkeeley.t610.text.center.red
+ text: ""
+ coords_l: 335
+ coords_r: 724
+ coords_t: 570
+ coords_b: 490
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.warnings
+}
+
+ui::text_common : .display.warnings.text2 {
+ value: "Visit SERVICE!"
+ look_template: kenkeeley.t610.text.center.red
+ text: ""
+ coords_l: 335
+ coords_r: 734
+ coords_t: 480
+ coords_b: 360
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: .display.warnings
+}
+
+}

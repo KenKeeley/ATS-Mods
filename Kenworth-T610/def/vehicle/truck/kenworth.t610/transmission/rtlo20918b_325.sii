@@ -1,0 +1,73 @@
+SiiNunit
+{
+accessory_transmission_data : rtlo20918b.325.kenworth.t610.transmission
+{
+	transmission_names: .names
+	name: "RTLO-20918B 18spd 3.25"
+	price: 16000
+	unlock: 0
+	icon: "transmission_eaton_super18"
+	suitable_for[]: "x15_485_16.kenworth.t610.engine"
+	suitable_for[]: "x15_485_18.kenworth.t610.engine"
+	suitable_for[]: "x15_505_18.kenworth.t610.engine"
+	suitable_for[]: "x15_525_18.kenworth.t610.engine"
+	suitable_for[]: "x15_565_18.kenworth.t610.engine"
+	suitable_for[]: "x15_605_18.kenworth.t610.engine"
+	suitable_for[]: "x15_605_20.kenworth.t610.engine"
+
+	# Differential Ratio:
+	differential_ratio: 3.25
+
+	# reverse gear
+	ratios_reverse[0]: -13.09
+	ratios_reverse[1]: -11.17
+	ratios_reverse[2]: -3.5
+	ratios_reverse[3]: -2.99
+	# forward gears
+	ratios_forward[0]: 12.19
+	ratios_forward[1]: 10.4
+	ratios_forward[2]: 8.51
+	ratios_forward[3]: 7.26
+	ratios_forward[4]: 6.05
+	ratios_forward[5]: 5.16
+	ratios_forward[6]: 4.38
+	ratios_forward[7]: 3.74
+	ratios_forward[8]: 3.2
+	ratios_forward[9]: 2.73
+	ratios_forward[10]: 2.28
+	ratios_forward[11]: 1.94
+	ratios_forward[12]: 1.62
+	ratios_forward[13]: 1.38
+	ratios_forward[14]: 1.17
+	ratios_forward[15]: 1.0
+	ratios_forward[16]: 0.86
+	ratios_forward[17]: 0.73
+}
+transmission_names : .names
+{
+  neutral: "N"
+  forward[0]: "D1"
+  forward[1]: "D2"
+  forward[2]: "D3"
+  forward[3]: "D4"
+  forward[4]: "D5"
+  forward[5]: "D6"
+  forward[6]: "D7"
+  forward[7]: "D8"
+  forward[8]: "D9"
+  forward[9]: "D10"
+  forward[10]: "D11"
+  forward[11]: "D12"
+  forward[12]: "D13"
+  forward[13]: "D14"
+  forward[14]: "D15"
+  forward[15]: "D16"
+  forward[16]: "D17"
+  forward[17]: "D18"
+
+  reverse[0]: "R1"
+  reverse[1]: "R2"
+  reverse[2]: "R3"
+  reverse[3]: "R4"
+} 
+}

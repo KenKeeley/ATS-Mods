@@ -1,0 +1,6 @@
+map 2d
+     t610-small_0.tga
+addr
+     clamp_to_edge
+     clamp_to_edge
+usage ui

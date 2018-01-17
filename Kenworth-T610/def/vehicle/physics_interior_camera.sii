@@ -1,0 +1,16 @@
+SiiNunit
+{
+physics_interior_camera_data: .picdata
+{
+	centrifugal_acceleration_compensation_factor: 1.2
+	characteristic_length_factor: 1.0
+	driver_height_damping_factor: 0.75
+	driver_height_stiffness_factor: 0.45
+	driver_pitch_damping_factor: 0.75
+	driver_pitch_stiffness_factor: 0.45
+	driver_seat_restitution: 0.8
+	height_limit: 0.1
+	pitch_limit_backward: 8.0
+	pitch_limit_forward: 15.0
+}
+}

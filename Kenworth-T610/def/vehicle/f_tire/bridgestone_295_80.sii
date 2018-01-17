@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_wheel_data : bstone.kenz.ftire
+{
+	name: "Bridgestone ECOPIA H-STEER 295/80"
+	price: 1430
+	unlock: 0
+	model: "/vehicle/truck/upgrade/wheel/tire/front_kenz.pmd"
+	icon: "tire_bstone"
+	look: bstone
+
+	roll_resistance: 5.5
+	wet_grip: 1.05
+	noise_volume: 70
+
+	suitable_for[]: "alcoa.kenz.fdisc"
+}
+}

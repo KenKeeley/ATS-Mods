@@ -1,0 +1,5 @@
+map	2d	front_hub_cover_kenworth.tga
+addr	clamp_to_edge	clamp_to_edge
+nomips
+nocompress
+color_space linear

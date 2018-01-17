@@ -1,0 +1,5 @@
+map	2d	engine_cummins_x15.tga
+addr	clamp_to_edge	clamp_to_edge
+nomips
+nocompress
+color_space linear

@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape1.kenworth.t610.doorhndl
+{
+	name: "@@plastic@@"
+	price: 100
+	unlock: 0
+	icon: "kenworth_t610/doorhandle_01"
+	exterior_model: "/vehicle/truck/upgrade/doorhandle/kenworth_t610/doorhandle_01.pmd"
+}
+}

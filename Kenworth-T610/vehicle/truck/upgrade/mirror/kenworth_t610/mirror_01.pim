@@ -1,0 +1,52 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.79.0 (hash: 5bd8ac9), SCS Blender Tools: 1.10.6cefe1f"
+    Type: "Model"
+    Name: "mirror_01"
+}
+Global {
+    VertexCount: 0
+    TriangleCount: 0
+    MaterialCount: 0
+    PieceCount: 0
+    PartCount: 1
+    BoneCount: 0
+    LocatorCount: 4
+    Skeleton: "mirror_01.pis"
+}
+Part {
+    Name: "defaultpart"
+    PieceCount: 0
+    LocatorCount: 4
+    Pieces:
+    Locators: 0 1 2 3
+}
+Locator {
+    Name: "cam_d"
+    Index: 0
+    Position: ( &bfafaace  &be28ede6  &3dfa97df )
+    Rotation: ( &3db27ebf  &2937944b  &3f7f069e  &33a18379 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "cam_ds"
+    Index: 1
+    Position: ( &bfb140cc  &3da55b02  &3dded7c8 )
+    Rotation: ( &3db27ebf  &2937944b  &3f7f069e  &33a18379 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "cam_p"
+    Index: 2
+    Position: ( &3fb179d1  &be28ede6  &3e06a7ef )
+    Rotation: ( &3db27ebf  &2937944b  &bf7f069e  &b3a18379 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "cam_ps"
+    Index: 3
+    Position: ( &3fb30f7c  &3da55b02  &3df18fc6 )
+    Rotation: ( &3db27ebf  &2937944b  &bf7f069e  &b3a18379 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+

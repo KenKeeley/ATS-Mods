@@ -1,0 +1,21 @@
+SiiNunit
+{
+accessory_cabin_data : daycab.kenworth.t610.cabin
+{
+	name: "Day Cabin"
+	price: 15000
+	unlock: 0
+	icon: "kenworth_t610/cab_daycab"
+	model: "/vehicle/truck/kenworth_t610/truck.pmd"
+	collision: "/vehicle/truck/kenworth_t610/truck.pmc"
+	variant: daycab
+	look: default
+	wiper_model: "/vehicle/truck/kenworth_t610/wipers.pmd"
+	wiper_anim: "/vehicle/truck/kenworth_t610/wipers.pma"
+	suspension: true
+
+	defaults[]: "/def/vehicle/truck/kenworth.t610/interior/daycab_m.sii"
+	defaults[]: "/def/vehicle/truck/kenworth.t610/head_light/standard.sii"
+	defaults[]: "/def/vehicle/truck/kenworth.t610/paint_job/style1_a.sii"
+}
+}

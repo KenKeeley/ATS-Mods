@@ -1,0 +1,40 @@
+SiiNunit
+{
+accessory_interior_data : stock.860mm_k.kenworth.t610.interior
+{
+	name: "Diamond VIT Interior/KMH"
+	price: 10000
+	unlock: 0
+	icon: "kenworth_t610/interior_stock"
+
+	model: "/vehicle/truck/kenworth_t610/interior/model.pmd"
+	collision: "/vehicle/truck/kenworth_t610/interior/model.pmc"
+	animated_model: "/vehicle/truck/kenworth_t610/interior/anim.pmd"
+	variant: 860mm_m
+	look: stock_k
+
+@include "animations.sui"
+
+	dashboard_path:"/ui/dashboard/kenworth_t610.sii"
+	gps_path:"/ui/gps.sii"
+
+	backlight_with_lights: false
+	air_brake_safeguard: true
+
+	glass_panes[]: .kenworth.t610.pane.front
+	glass_panes[]: .kenworth.t610.pane.close
+	glass_panes[]: .kenworth.t610.pane.far
+
+	suitable_for[]: "860mm.kenworth.t610.cabin"
+	suitable_for[]: "aero.kenworth.t610.cabin"
+	ext_model: "/vehicle/truck/upgrade/ext_interior/kenworth_t610/ext_model.pmd"
+	ext_variant: 860mm_m
+	ext_look: stock_k
+
+	defaults[]: "/def/vehicle/truck/kenworth.t610/accessory/steering_w/stock_grey.sii"
+
+@include "dashboard_color.sui"
+@include "seat.sui"
+}
+@include "glass.sui"
+}

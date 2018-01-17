@@ -1,0 +1,84 @@
+SiiNunit
+{
+accessory_engine_data : x15_605_18.kenworth.t610.engine
+{
+	name: "Cummins X15 605hp"
+	price: 20000
+	unlock: 0
+
+	# Engine display info
+	info[]: "605 @@hp@@ (451@@kw@@)"
+	info[]: "2@@dg@@508 @@nm@@ (1@@dg@@850 @@lb_ft@@)"
+	info[]: "1@@dg@@150 @@rpm@@"
+	icon: "engine_cummins_x15"
+
+	# Engine Specs
+	torque: 2508
+	volume: 14.9
+
+	# Torque Curves
+	torque_curve[]: (300, 0)
+	torque_curve[]: (900, 0.5947)
+	torque_curve[]: (1150, 1)
+	torque_curve[]: (1500, 1)
+	torque_curve[]: (1600, 0.9866)
+	torque_curve[]: (1900, 0.5582)
+	torque_curve[]: (2100, 0)
+
+	# RPM Data
+	rpm_idle: 600
+	rpm_limit: 1900
+	rpm_limit_neutral: 1900
+	rpm_range_low_gear: (1150, 1500)
+	rpm_range_high_gear: (1000, 1500)
+	rpm_range_power_boost: (400, 300)
+	rpm_range_engine_brake: (1400, 1800)
+
+	# Engine Brake data
+	engine_brake: 2.5
+	engine_brake_downshift: 1
+	engine_brake_positions: 3
+
+	# Adblue / Fuel consumption Settings
+	consumption_coef: 0.93
+	adblue_consumption: 0.05
+	no_adblue_power_limit: 0.6
+
+	# Sound Data
+	overrides[]: "/def/vehicle/truck/kenworth.t610/sound/interior_x15.sii"
+	overrides[]: "/def/vehicle/truck/kenworth.t610/sound/exterior_x15.sii"
+
+	# Attachments
+	defaults[]: "/def/vehicle/truck/kenworth.t610/transmission/rtlo18918b_285.sii"
+
+	# Conflicts
+	conflict_with[]: "fo16e318b.285.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.285r.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.308.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.308r.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.325.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.325r.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.355.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.355r.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.390.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.390r.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.411.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.411r.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.433.kenworth.t610.transmission"
+	conflict_with[]: "fo16e318b.433r.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.285.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.285r.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.308.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.308r.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.325.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.325r.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.355.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.355r.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.390.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.390r.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.411.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.411r.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.433.kenworth.t610.transmission"
+	conflict_with[]: "rtlo16918b.433r.kenworth.t610.transmission"
+}
+}
