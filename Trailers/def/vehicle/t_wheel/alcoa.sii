@@ -1,0 +1,8 @@
+SiiNunit
+{
+accessory_wheel_data : alcoa.rwheel
+{
+	name: "Alcoa"
+	model: "/vehicle/wheel/alcoa/rear.pmd"
+}
+}

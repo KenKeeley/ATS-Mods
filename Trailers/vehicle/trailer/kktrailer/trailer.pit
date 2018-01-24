@@ -1,0 +1,114 @@
+# Look Names:
+#	default
+#
+# Variant Names:
+#	curtain
+#	curtain_a
+#	curtain_b
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.79.0 (hash: 5bd8ac9), SCS Blender Tools: 1.11.2032583"
+    Type: "Trait"
+    Name: "trailer"
+}
+Global {
+    LookCount: 1
+    VariantCount: 3
+    PartCount: 3
+    MaterialCount: 0
+}
+Look {
+    Name: "default"
+}
+Variant {
+    Name: "curtain"
+    Part {
+        Name: "base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "a"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "b"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+Variant {
+    Name: "curtain_a"
+    Part {
+        Name: "base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "a"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "b"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+}
+Variant {
+    Name: "curtain_b"
+    Part {
+        Name: "base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "a"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "b"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+

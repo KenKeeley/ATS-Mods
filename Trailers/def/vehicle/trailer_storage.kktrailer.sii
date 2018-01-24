@@ -1,0 +1,10 @@
+SiiNunit
+{
+
+@include "trailer/kkcurtain.sii"
+
+@include "trailer/kkcurtain_a.sii"
+
+@include "trailer/kkcurtain_b.sii"
+
+}

@@ -1,0 +1,10 @@
+SiiNunit
+{
+trailer_def : .kkcurtain
+{
+	trailer: trailer.kkcurtain
+	mass: 15422.2
+	cog_offset: 1
+	cog_offset[]: (0, 1, 0)
+}
+}

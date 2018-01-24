@@ -1,0 +1,45 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.79.0 (hash: 5bd8ac9), SCS Blender Tools: 1.11.2032583"
+    Type: "Model"
+    Name: "rear"
+}
+Global {
+    VertexCount: 0
+    TriangleCount: 0
+    MaterialCount: 0
+    PieceCount: 0
+    PartCount: 2
+    BoneCount: 0
+    LocatorCount: 2
+    Skeleton: "rear.pis"
+}
+Part {
+    Name: "left"
+    PieceCount: 0
+    LocatorCount: 1
+    Pieces:
+    Locators: 0
+}
+Part {
+    Name: "right"
+    PieceCount: 0
+    LocatorCount: 1
+    Pieces:
+    Locators: 1
+}
+Locator {
+    Name: "bb"
+    Index: 0
+    Position: ( &be9d5c96  &b3289da0  &3f051eb8 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "ml"
+    Index: 1
+    Position: ( &00000000  &00000000  &00000000 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+

@@ -1,0 +1,185 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.79.0 (hash: 5bd8ac9), SCS Blender Tools: 1.11.2032583"
+    Type: "Model"
+    Name: "trailer"
+}
+Global {
+    VertexCount: 0
+    TriangleCount: 0
+    MaterialCount: 0
+    PieceCount: 0
+    PartCount: 3
+    BoneCount: 0
+    LocatorCount: 21
+    Skeleton: "trailer.pis"
+}
+Part {
+    Name: "base"
+    PieceCount: 0
+    LocatorCount: 2
+    Pieces:
+    Locators: 3 4
+}
+Part {
+    Name: "a"
+    PieceCount: 0
+    LocatorCount: 10
+    Pieces:
+    Locators: 0 17 2 19 5 7 9 11 13 15
+}
+Part {
+    Name: "b"
+    PieceCount: 0
+    LocatorCount: 9
+    Pieces:
+    Locators: 16 1 18 20 6 8 10 12 14
+}
+Locator {
+    Name: "hook"
+    Index: 0
+    Position: ( &00000000  &3f800003  &c0a00000 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "hook"
+    Index: 1
+    Position: ( &00000000  &3f800003  &c0a4cccd )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "s_hook"
+    Index: 2
+    Position: ( &00000000  &3f7ffffc  &403851ec )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "shadow_x_crn"
+    Index: 3
+    Position: ( &bfcccccd  &bf199992  &c0c00000 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "shadow_x_ori"
+    Index: 4
+    Position: ( &00000000  &3fa66668  &c0200000 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "skid_wh0"
+    Index: 5
+    Position: ( &bf7fbe77  &3dccccab  &405851ec )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "skid_wh0"
+    Index: 6
+    Position: ( &3f7fbe77  &3dcccc9c  &4099999a )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "skid_wh1"
+    Index: 7
+    Position: ( &3f7fbe77  &3dccccab  &405851ec )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "skid_wh1"
+    Index: 8
+    Position: ( &bf7fbe77  &3dcccc9c  &4099999a )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_0"
+    Index: 9
+    Position: ( &bf75a1cb  &3f09ba59  &40833333 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_0"
+    Index: 10
+    Position: ( &bf75a1cb  &3f09ba57  &40b5c28f )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_1"
+    Index: 11
+    Position: ( &3f75a1cb  &3f09ba59  &40833333 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_1"
+    Index: 12
+    Position: ( &3f75a1cb  &3f09ba57  &40b5c28f )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_2"
+    Index: 13
+    Position: ( &bf75a1cb  &3f09ba5a  &403851ec )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_2"
+    Index: 14
+    Position: ( &bf75a1cb  &3f09ba59  &4089999a )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_3"
+    Index: 15
+    Position: ( &3f75a1cb  &3f09ba5a  &403851ec )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_3"
+    Index: 16
+    Position: ( &3f75a1cb  &3f09ba59  &4089999a )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_4"
+    Index: 17
+    Position: ( &bf75a1cb  &3f09ba5c  &3fd47ae1 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_4"
+    Index: 18
+    Position: ( &bf75a1cb  &3f09ba5a  &403ae148 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_5"
+    Index: 19
+    Position: ( &3f75a1cb  &3f09ba5c  &3fd47ae1 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "wheel_r_5"
+    Index: 20
+    Position: ( &3f75a1cb  &3f09ba5a  &403ae148 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+

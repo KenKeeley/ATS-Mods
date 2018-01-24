@@ -1,0 +1,37 @@
+trailer : trailer.kkcurtain
+{
+	accessories[]: .kkcurtain.tchassis
+	accessories[]: .kkcurtain.paint_job
+	accessories[]: .kkcurtain.trwheel0
+	accessories[]: .kkcurtain.trwheel1
+	accessories[]: .kkcurtain.trwheel2
+
+}
+
+vehicle_accessory: .kkcurtain.tchassis
+{
+	data_path: "/def/vehicle/trailer/kkcurtain/chassis.sii"
+}
+
+vehicle_wheel_accessory: .kkcurtain.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/alcoa.sii"
+}
+
+vehicle_wheel_accessory: .kkcurtain.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/alcoa.sii"
+}
+
+vehicle_wheel_accessory: .kkcurtain.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/alcoa.sii"
+}
+
+vehicle_paint_job_accessory: .kkcurtain.paint_job
+{
+	data_path: "/def/vehicle/trailer/kkcurtain/company_paint_job/default.sii"
+}
